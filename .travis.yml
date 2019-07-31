@@ -4,6 +4,3 @@ services:
 
 before_install:
  docker build -t filip123go/dockerreact -f Dockerfile.dev .
-
-script:
- docker run -e CI=true filip123go/dockerreact npm run test
