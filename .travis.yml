@@ -9,5 +9,6 @@ script:
  docker run -e CI=true filip123go/dockerreact npm run test
 
 deploy:
- on:
-  branch: master
+ provider: elasticbeanstalk
+  on:
+   branch: master
