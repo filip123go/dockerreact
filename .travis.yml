@@ -1,3 +1,4 @@
+language: generic
 sodu: required
 services:
   - docker
@@ -7,5 +8,3 @@ before_install:
 
   script:
     - docker run -e CI=true filip123go/docker-react npm run test
-
-language: generic
