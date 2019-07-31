@@ -1,6 +1,0 @@
-sudo: required
-services:
- -docker
-
-before_install:
- docker build -t filip123go/dockerreact -f Dockerfile.dev .
