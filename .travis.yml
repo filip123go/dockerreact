@@ -7,3 +7,7 @@ before_install:
 
 script:
  docker run -e CI=true filip123go/dockerreact npm run test
+
+deploy:
+ on:
+  branch: master
