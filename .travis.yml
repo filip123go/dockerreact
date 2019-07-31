@@ -7,8 +7,3 @@ before_install:
 
 script:
  docker run -e CI=true filip123go/dockerreact npm run test
-
-deploy:
-  provider: elasticbeanstalk
-    on:
-      branch: master
