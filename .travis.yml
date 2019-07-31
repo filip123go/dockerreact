@@ -1,5 +1,5 @@
 language: generic
-sodu: required
+sudo: required
 services:
   - docker
 
