@@ -3,6 +3,7 @@ services:
  -docker
 
 before_install:
+<<<<<<< HEAD
  docker build -t filip123go/dockerreact -f Dockerfile.dev .
 
 script:
